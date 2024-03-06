@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DR4_TP2", "DR4_TP2\DR4_TP2.csproj", "{97BE34F7-D15D-409B-903E-A6762D4F28D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BE34F7-D15D-409B-903E-A6762D4F28D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BE34F7-D15D-409B-903E-A6762D4F28D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BE34F7-D15D-409B-903E-A6762D4F28D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BE34F7-D15D-409B-903E-A6762D4F28D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D519098D-05E9-4BD0-95BB-60A7093960E0}
+	EndGlobalSection
+EndGlobal

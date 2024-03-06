@@ -1,0 +1,32 @@
+﻿@page
+@using DR4_TP2.Models
+@model DR4_TP2.Pages.Index1Model
+@{
+    ViewData["Title"] = "Pessoa";
+
+    Pessoa p = new Pessoa();
+    p.Nome_ = "Ygor";
+    p.Idade_ = 18;
+    p.CPF_ = 123456789;
+}
+
+    <h1>Lista de Pessoas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+        <tbody>  
+                <tr>
+                    <td>@p.Nome_</td>
+                    <td>@p.Idade_</td>
+                    <td>@p.CPF_</td>
+                </tr>
+        </tbody>
+    </table>
+
+
+
